@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 850" role="img" aria-labelledby="title"><title id="title">Artistic silhouette of Shri Krishna playing the flute</title><defs><linearGradient id="k" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee1ff"/><stop offset="1" stop-color="#9ccfff"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="3"/></filter></defs><g fill="url(#k)">
+<!-- peacock feather and crown -->
+<path d="M297 158Q274 113 295 68Q311 30 306 10Q345 59 332 97Q319 129 315 159Z"/><path d="M305 105Q337 76 365 94Q354 122 321 135Z"/><path d="M250 157Q275 120 309 132Q347 126 368 161L379 188Q332 178 284 193L241 194Z"/>
+<!-- face in refined profile looking toward flute -->
+<path d="M278 181Q322 161 354 184Q379 201 379 232Q381 260 364 279L344 300L334 333L303 343L285 319Q253 309 248 275Q236 235 256 204Z"/>
+<path d="M365 236L390 245L371 256Z"/><path d="M373 269Q358 281 346 274L337 266L357 270Z"/>
+<!-- neck upper body shawl -->
+<path d="M289 312Q313 335 338 316L345 359Q389 363 429 391Q475 429 477 494L452 527L417 486L407 623Q394 699 349 776L166 777Q177 702 197 635L204 514Q169 549 146 579L112 546Q129 471 167 419Q200 370 275 354Z"/>
+<path d="M283 344Q231 389 213 455Q228 491 266 519Q294 482 308 432Q331 396 343 366Z" opacity=".8"/>
+<!-- flute arms crossing body -->
+<path d="M215 424Q246 399 281 376L348 281Q364 267 377 279Q390 289 382 306L317 411Q278 467 245 482Q213 486 198 468Z"/>
+<path d="M395 388Q416 369 410 345Q402 323 386 318L343 301Q322 296 316 313Q314 328 331 335L366 356Q359 381 341 395L293 424L316 460Q372 452 395 388Z"/>
+<!-- relaxed clothing and legs silhouette -->
+<path d="M201 595Q252 655 306 679Q359 684 421 629L413 695Q366 766 317 821L282 824L304 737Q258 712 230 693L216 827L173 827L170 724Z"/>
+<!-- distant scarf floating -->
+<path d="M428 398Q475 398 504 449Q513 484 491 535Q512 463 453 448Z"/>
+</g><g fill="none" stroke="#eef1ff" stroke-linecap="round"><path d="M176 283L457 227" stroke-width="11"/><path d="M167 283L460 224" stroke-width="2" opacity=".8"/><path d="M287 259L291 283M320 253L324 275M352 245L357 268" stroke-width="5"/><path d="M303 104Q318 85 330 103Q321 121 305 111Z" stroke-width="4"/></g><g fill="#f4e1ff"><circle cx="335" cy="227" r="4"/><circle cx="313" cy="108" r="5"/></g></svg>
