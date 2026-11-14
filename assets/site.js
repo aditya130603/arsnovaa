@@ -1,0 +1,1 @@
+document.querySelector('.mobile-menu')?.addEventListener('click',()=>{const nav=document.querySelector('.navlinks');nav.classList.toggle('open');document.querySelector('.mobile-menu').setAttribute('aria-expanded',nav.classList.contains('open'))});
