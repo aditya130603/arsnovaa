@@ -155,3 +155,28 @@ body:has(.av-home) .header .logo i{color:var(--av)}
 .av-portal{backface-visibility:hidden}
 @media(max-width:760px){.av-story-run{height:260vh}.av-story-run .av-story-view{min-height:620px;height:100svh}.av-story-controls{bottom:22px}}
 @media(prefers-reduced-motion:reduce){.av-story-run{height:240vh}.av-story-run .av-story-view{height:100svh}}
+
+/* Directed opening credits and editorial transitions */
+.av-title span{animation:av-enter 1.25s cubic-bezier(.15,.8,.2,1) both}
+.av-title span:nth-child(1){animation-delay:.08s}
+.av-title span:nth-child(2){animation-delay:.22s}
+.av-title span:nth-child(3){animation-delay:.36s}
+.av-hero-desc{animation:av-fade-up 1.2s .6s both}
+.av-cta-row{animation:av-fade-up 1.2s .75s both}
+.av-portal{animation:av-reveal-portal 1.4s .25s both}
+.av-holo{opacity:0;animation:av-holo-intro 1s .9s forwards,av-float 5s 1.9s ease-in-out infinite}
+.av-holo-two{animation-delay:1.05s,2.05s}
+.av-holo-three{animation-delay:1.2s,2.2s}
+@keyframes av-enter{from{opacity:0;transform:translateY(105%) skewY(5deg);filter:blur(10px)}to{opacity:1;transform:translateY(0) skewY(0);filter:blur(0)}}
+@keyframes av-fade-up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes av-reveal-portal{from{opacity:0;scale:.72;filter:blur(30px)}to{opacity:1;scale:1;filter:blur(0)}}
+@keyframes av-holo-intro{from{opacity:0;scale:.87;filter:blur(5px)}to{opacity:1;scale:1;filter:blur(0)}}
+.av-hero-copy{overflow:visible}
+.av-title{overflow:visible}
+.av-intro h2{position:relative;z-index:1}
+.av-giant-type{transform:translate3d(var(--giant-x,0px),0,0);will-change:transform}
+.av-service-row:hover h3{letter-spacing:-.04em}
+.av-story-scene.av-current .av-story-text h3{animation:av-fade-up .8s .1s both}
+.av-story-scene.av-current .av-story-text p{animation:av-fade-up .8s .22s both}
+.av-story-scene.av-current .av-story-text a{animation:av-fade-up .8s .32s both}
+@media(prefers-reduced-motion:reduce){.av-title span,.av-hero-desc,.av-cta-row,.av-portal,.av-holo,.av-story-scene.av-current .av-story-text h3,.av-story-scene.av-current .av-story-text p,.av-story-scene.av-current .av-story-text a{animation:none!important;opacity:1;transform:none;filter:none;scale:1}}
