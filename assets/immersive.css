@@ -19,7 +19,7 @@ body:has(.ars-home) .logo{font-size:27px;letter-spacing:-1.9px}
 .ars-hero-title{font-size:clamp(72px,9.25vw,155px);line-height:.84;letter-spacing:-.09em;margin:0 0 35px;font-weight:850}
 .ars-hero-title .line{display:block;white-space:nowrap}
 .ars-hero-title .outline{color:transparent;-webkit-text-stroke:1px rgba(237,246,233,.8)}
-.ars-hero-title .serif{font-family:Georgia,serif;font-weight:400;font-style:italic;letter-spacing:-.08em;color:var(--ars-mint);font-size:.86em}
+.ars-hero-title .serif{font-family:Georgia,serif;font-weight:400;font-style:italic;letter-spacing:-.09em;color:var(--ars-mint);font-size:.65em}
 .ars-hero-title .period{color:var(--ars-mint)}
 .ars-intro{max-width:510px;color:#aab9b0;font-size:clamp(17px,1.5vw,20px);line-height:1.65;margin:0}
 .ars-intro b{color:#eef5ec;font-weight:500}
@@ -123,3 +123,7 @@ body:has(.ars-home) .logo{font-size:27px;letter-spacing:-1.9px}
 .ars-hud-one{top:10%;right:25%}.ars-hud-three{bottom:18%}.ars-architecture{padding:18px}.ars-arch-nodes{padding-top:30px}
 }
 @media(prefers-reduced-motion:reduce){.ars-marquee span,.ars-live-dot,.ars-stage.ars-fallback:before,.ars-stage.ars-fallback:after{animation:none!important}}
+
+/* Keep the long display word within the viewport at every breakpoint. */
+@media(max-width:720px){.ars-hero-title .serif{font-size:.63em}}
+@media(max-width:380px){.ars-hero-title .serif{font-size:.57em}}
