@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 850" role="img" aria-labelledby="title"><title id="title">Artistic meditative silhouette of Lord Shiva with trident and crescent moon</title><defs><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d4e1ff"/><stop offset="1" stop-color="#a58bff"/></linearGradient></defs><g fill="url(#s)">
+<!-- piled jata hair -->
+<path d="M258 166Q226 123 260 106Q235 77 261 60Q248 29 286 18Q321 8 344 42Q380 34 386 65Q411 77 383 112Q401 145 363 161Z"/>
+<!-- face and long locks -->
+<path d="M233 171Q263 145 315 150Q371 152 381 198Q389 251 355 285Q343 312 342 345L263 348L252 304Q225 287 216 240Q209 200 233 171Z"/>
+<path d="M224 190Q183 256 211 322Q175 370 199 407Q157 434 188 485Q184 434 221 414Q238 392 233 359Q255 301 242 267Z"/>
+<path d="M379 176Q419 218 404 276Q425 310 404 356Q431 400 415 442Q421 391 384 363Q366 339 370 305Z"/>
+<!-- broad shoulders and torso -->
+<path d="M257 338Q230 355 191 369Q132 380 102 441Q86 479 104 513Q125 544 160 545L181 517Q167 494 183 463L199 501Q205 562 187 635L142 719Q134 752 127 809L432 809Q435 755 399 706L367 644Q344 566 365 505L387 464Q401 505 391 539L426 555Q468 532 456 475Q439 395 363 366L331 345Q292 374 257 338Z"/>
+<!-- arms folded into meditation pose -->
+<path d="M173 511Q216 564 274 563Q306 557 345 514L367 549Q344 608 289 624Q228 620 183 555Z"/>
+<path d="M170 621Q213 649 269 642Q331 644 374 620L418 707Q357 684 282 689Q195 688 149 722Z"/>
+<!-- bead necklace -->
+<path d="M253 351Q267 409 311 438Q343 412 349 354L362 379Q352 448 311 471Q262 454 243 391Z" opacity=".42"/>
+</g>
+<!-- forehead and symbolic markings -->
+<g fill="none" stroke="#e4eeff" stroke-linecap="round"><path d="M267 210H340M268 219H339M270 228H337" stroke-width="4"/><path d="M306 198V238" stroke-width="3" opacity=".75"/></g>
+<!-- crescent moon -->
+<path d="M334 44Q364 6 402 27Q370 22 358 63Q354 82 370 96Q330 89 334 44Z" fill="#fcddff"/>
+<!-- trishul -->
+<g fill="none" stroke="#d7d4ff" stroke-linecap="round" stroke-linejoin="round"><path d="M479 90V803" stroke-width="11"/><path d="M479 242Q431 239 431 182Q425 193 421 194Q405 139 421 102Q416 158 450 164Q466 169 479 137Q493 169 508 164Q541 158 535 102Q554 146 536 194Q529 193 524 182Q524 238 479 242Z" stroke-width="10"/><path d="M479 83L467 130H491Z" stroke-width="7"/><path d="M464 278L489 293L464 308L489 323" stroke-width="4" opacity=".7"/></g>
+</svg>
