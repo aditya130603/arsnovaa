@@ -24,8 +24,8 @@ Visit http://localhost:8080. The intended production host should support folder/
 
 ## Launch checklist
 
-1. **Domain is not verified.** All canonical tags and sitemap URLs currently assume `https://arsnovaa.studio`. If the real company domain is different, replace this value throughout.
-2. **Email is not verified.** `hello@arsnovaa.studio` is a placeholder mailto address and must be configured or replaced before launch.
+1. **Website domain:** Canonical tags and sitemap URLs use `https://www.arsnovaa.com`. If the real company domain is different, replace this value throughout.
+2. **Business email:** `design@arsnovaa.com` is the provided contact address.
 3. Check the privacy page against actual email/analytics providers, business data practices and legal requirements.
 4. Connect and verify the domain, check HTTPS, and submit `/sitemap.xml` in Google Search Console.
 5. Validate business name, address, Google Business Profile, phone number and office eligibility before publishing local business citations. Only Indore city is represented, not an invented street address.
@@ -40,3 +40,7 @@ Custom typography styling, original CSS orbital art and workflow illustration, l
 ## What to improve next
 
 Actual company/project portfolio, product demos, case studies grounded in real results, verified founders/team, security/privacy technical architecture, customer references (with permission), and an engineering changelog. These are particularly important for AWS and Claude startup ecosystem application credibility.
+
+## VPS deployment
+
+See [`deploy/DEPLOY.md`](deploy/DEPLOY.md) for safe Nginx, DNS and HTTPS steps for www.arsnovaa.com on the existing VPS.
