@@ -1,0 +1,106 @@
+/* ARSNOVAA · COSMIC ATELIER / galaxy rebrand */
+:root{--av:#e5c5ff;--obsidian:#050411;--milk:#eeebff;--muted:#a8a3c7;--cosmic-cyan:#70e5ff;--cosmic-gold:#f5d99a;--cosmic-violet:#9869ff}
+body:has(.av-home){background:#050411}
+body:has(.av-home) .header{background:rgba(7,5,23,.77);border-bottom:1px solid #b8a0ff24;box-shadow:0 4px 40px #03000f50}
+body:has(.av-home) .header .logo i{color:#cba7ff}
+body:has(.av-home) .navlinks a:hover{color:var(--cosmic-cyan)}
+body:has(.av-home) .nav-cta{background:linear-gradient(110deg,#d4b3ff,#8de7ff);color:#130d2c}
+.av-home .av-kicker:before,.av-hero .av-status:before{color:#cda7ff;background:#cda7ff}
+.av-hero{background:radial-gradient(ellipse at 64% 36%,#27145b 0%,#120b35 33%,#07061d 70%,#040410 100%)}
+.av-hero:before{content:"";position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse at 16% 47%,#932fff18,transparent 38%),radial-gradient(ellipse at 91% 65%,#45ccff18,transparent 34%),radial-gradient(ellipse at 54% 91%,#fbbe6620,transparent 35%);pointer-events:none}
+.av-cosmic-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;isolation:isolate}
+.av-cosmic-bg .nebula{position:absolute;border-radius:50%;filter:blur(65px);mix-blend-mode:screen;opacity:.7;will-change:transform}
+.av-cosmic-bg .nebula.a{top:-28%;left:18%;width:54vw;height:48vw;background:radial-gradient(circle,#864cf65c 0%,#7826ae22 43%,transparent 73%);animation:nebula-drift-a 20s ease-in-out infinite}
+.av-cosmic-bg .nebula.b{bottom:-38%;right:-17%;width:60vw;height:60vw;background:radial-gradient(circle,#4edafc42 0%,#3762ec1b 44%,transparent 72%);animation:nebula-drift-b 24s ease-in-out infinite}
+.av-cosmic-bg .nebula.c{top:40%;left:-20%;width:48vw;height:48vw;background:radial-gradient(circle,#aa55c93b 0%,#5025a518 44%,transparent 75%);animation:nebula-drift-b 27s ease-in-out infinite reverse}
+.av-cosmic-bg .cosmic-spot{position:absolute;left:var(--cos-x,55%);top:var(--cos-y,50%);width:520px;height:520px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,#cab4ff3c 0%,#4e9fff12 36%,transparent 70%);filter:blur(23px);opacity:var(--cos-opacity,0);transition:opacity .4s;mix-blend-mode:screen}
+.av-cosmic-bg .cosmic-ring{position:absolute;width:min(78vw,1000px);aspect-ratio:1;border:1px solid #cab5ff1b;border-radius:50%;right:-9%;top:-11%;box-shadow:0 0 0 90px #c1b4ff05,0 0 0 200px #8e7aff04;transform:rotate(-22deg) scaleX(.82)}
+.av-cosmic-bg .constellation{position:absolute;inset:0;background-image:radial-gradient(1px 1px at 13% 17%,#e6d8ff 98%,transparent),radial-gradient(1px 1px at 29% 68%,#c4e7ff 98%,transparent),radial-gradient(1.5px 1.5px at 44% 26%,#e5d0ff 98%,transparent),radial-gradient(1px 1px at 62% 70%,#f4e8ff 98%,transparent),radial-gradient(2px 2px at 78% 14%,#e6d3ff 98%,transparent),radial-gradient(1px 1px at 91% 54%,#c6eaff 98%,transparent);background-size:340px 370px;opacity:.45;animation:cosmic-twinkle 9s ease-in-out infinite alternate}
+.av-cosmic-bg .devotional{position:absolute;height:74%;width:auto;z-index:1;opacity:.13;filter:drop-shadow(0 0 30px #9474ff83);mix-blend-mode:screen;animation:devotional-float 18s ease-in-out infinite;user-select:none}
+.av-cosmic-bg .devotional.krishna{left:-4%;bottom:-17%;height:82%;opacity:.14;transform:rotate(-6deg);mask-image:linear-gradient(to bottom,transparent 0%,black 15%,black 72%,transparent 100%)}
+.av-cosmic-bg .devotional.shiva{right:-1%;top:4%;height:79%;opacity:.14;animation-delay:-8s;mask-image:linear-gradient(to bottom,transparent 0%,black 12%,black 74%,transparent 100%)}
+.av-field{z-index:1;opacity:.75;filter:hue-rotate(145deg) saturate(1.1)}
+.av-grid{opacity:.36;z-index:1}
+.av-hero-stage{z-index:2;opacity:.84}
+.av-hero-copy{z-index:5}
+.av-grain{z-index:7}
+.av-title .av-title-accent{color:#e0b5ff;text-shadow:0 0 80px #914cff65}
+.av-title .av-title-outline{-webkit-text-stroke:1px #d6cbffab}
+.av-status{color:#c7c5e5}
+.av-hero-desc{color:#bfb9d2}
+.av-hero-desc strong{color:#f5edff}
+.av-disc{background:conic-gradient(from 15deg,#21124b 0deg,#d7bfff 36deg,#5541ab 76deg,#0b0b2d 132deg,#71e4fa 174deg,#24134f 224deg,#d4a2f4 285deg,#21124b 360deg);box-shadow:0 0 0 2px #c2a1ff7c,0 0 0 23px #8056fc16,0 0 95px #9a66ff58,inset 16px 13px 60px #fff5,inset -35px -45px 65px #0b0525}
+.av-disc:after{background:radial-gradient(ellipse at 56% 42%,#1d1744,#050514 68%);box-shadow:inset 6px 6px 25px #020109,inset -4px -6px 45px #6a4bde6d,0 0 0 1px #a6a0ff66}
+.av-glass{border-color:#efd7ff99;background:linear-gradient(130deg,#d7ceff3b,#a5bfff0e 30%,#20113d26 70%,#c8a6ff25);box-shadow:0 20px 100px #020113b0,inset 2px 2px 23px #dccfff2c}
+.av-glass:before{border-color:#dab8ff55}
+.av-laser{background:linear-gradient(135deg,transparent 47%,#b778fe20 48%,#e0d1ff65 50%,transparent 52%)}
+.av-holo{border-color:#bba6fa74;background:linear-gradient(135deg,#21183de8,#090c28e3);box-shadow:0 20px 55px #030216b8}
+.av-holo span{color:#afa9d5}.av-holo b{color:#f5efff}.av-holo i{color:#8fe5ff}
+.av-stage-hint,.av-footer-line{color:#c3bddc}
+.av-btn{background:linear-gradient(110deg,#e8caff,#a89aff 48%,#8be5f8);color:#130c28;border:1px solid #daccff99;box-shadow:0 10px 45px #8b54ff35;transition:filter .25s,box-shadow .25s,transform .25s}
+.av-btn:hover{background:linear-gradient(110deg,#f5dbff,#b2a4ff 48%,#acefff);box-shadow:0 18px 55px #8650ff60,0 0 34px #7cdeff4d;filter:saturate(1.22)}
+.av-ghost{border-bottom-color:#c7a4f58a;color:#dcd4f6}
+.av-ghost:hover{color:#9cf1ff;border-color:#a5ebff}
+.av-reel{background:linear-gradient(100deg,#a987ff,#e1b7ff 49%,#94e3f7);color:#180e31}
+.av-intro{background:linear-gradient(160deg,#efedff,#e7e4fa 55%,#ece7fa);color:#18122e}
+.av-intro h2 em,.av-cap-head h2 em{color:#7947ce}
+.av-intro .av-intro-lead{color:#544b6e}
+.av-giant-type{color:#5543ae0c}
+.av-story{background:linear-gradient(180deg,#08051d,#0f082a 45%,#08051b);color:#f7f0ff}
+.av-story-heading h2 em,.av-story-text h3 em{color:#d5a6ff}
+.av-story-sub,.av-story-text p{color:#b9b3d0}
+.av-story-view{border-color:#b7a1ff28;background:radial-gradient(ellipse at 60% 50%,#2b1757 0%,#100c30 52%,#070619 100%)}
+.av-story-text a{color:#a5edff;border-color:#a5edff}
+.av-visual-panel{border-color:#baaeff6b;background:linear-gradient(135deg,#b4a1fa26,#0d0c2f3a 45%,#85baf827);box-shadow:0 38px 95px #020112c9,inset 0 0 65px #b19cff1a}
+.av-panel-head{border-color:#c8bdff42;color:#ddd7ff}
+.av-node{border-color:#b9aaff65;background:#151038df}.av-node span{color:#bbb2dd}.av-node strong{color:#d8bbff}
+.av-connector{background:linear-gradient(90deg,#cda9ff,#7deaff44)}.av-connector:after{border-left-color:#cda9ff}
+.av-code-window{border-color:#b9a7ff84;background:#11102cdf;box-shadow:30px 30px 0 #a48aff18,0 30px 90px #030115cc}
+.av-code-line{color:#e4dcff}.av-code-line b{color:#91e7ff}.av-code-line i{color:#ae9fd2}
+.av-bar{background:linear-gradient(0deg,#302378,#a15cff 65%,#93f1ff);box-shadow:inset 0 0 0 1px #baadff74,13px 13px 0 #a795ff22,0 0 40px #866cff33}
+.av-story-progress{background:#b9a0ff30}.av-story-progress i{background:linear-gradient(90deg,#9668ff,#8ee9ff)}
+.av-story-buttons button{background:#1a113b;border-color:#9c80ff7e;color:#eee5ff}.av-story-buttons button:hover{background:#b7a0ff;color:#120b2c}
+.av-story-count,.av-story-note{color:#aaa4c8}
+.av-capabilities{background:#efedff;color:#18112e}
+.av-cap-head p,.av-service-row p{color:#625b80}
+.av-service-list,.av-service-row{border-color:#bab0d7}
+.av-service-row .av-num{color:#8273ad}
+.av-service-row:hover{background:linear-gradient(100deg,#e2d8ff,#dceeff);box-shadow:inset 5px 0 #8c66db}
+.av-service-row .av-row-arrow{border-color:#8b76c2;color:#452c7e}
+.av-service-row:hover .av-row-arrow{background:#492c88;color:#eae1ff}
+.av-service-row .av-hover-image{position:absolute;z-index:2;width:195px;height:130px;right:21%;top:50%;transform:translate(0,-50%) rotate(-12deg) scale(.7);opacity:0;pointer-events:none;transition:opacity .25s,transform .35s;background:radial-gradient(circle at 25% 25%,#e6d6ff,#9475d8 50%,#2f245a);border:1px solid #d2b9ff;border-radius:14px;box-shadow:0 25px 70px #1b0c5166;display:grid;place-items:center;font-size:64px;color:#e6d8ff}
+.av-service-row:hover .av-hover-image{opacity:1;transform:translate(0,-50%) rotate(7deg) scale(1)}
+.av-break{background:linear-gradient(115deg,#d9b6ff,#c8aeff 46%,#9de5fd);color:#211138}
+.av-break:before{color:#37157414}
+.av-break .av-btn{background:#170d32;color:#ece2ff}
+.av-break .av-kicker:before{color:#5d368c}
+.av-home~.footer,body:has(.av-home) .footer{background:#060418;border-top:1px solid #a68cf330}
+.av-follower{border-color:#c6aaff;background:#aa84ff18;mix-blend-mode:difference}
+.av-follower.av-big{background:#cbb7ff4a;box-shadow:0 0 40px #8b61ff50}
+.av-interactive{--spot-x:50%;--spot-y:50%;position:relative;isolation:isolate}
+.av-interactive:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(190px circle at var(--spot-x) var(--spot-y),#bc97ff2a,transparent 70%);opacity:0;transition:opacity .25s}
+.av-interactive:hover:after,.av-interactive:focus-visible:after{opacity:1}
+.av-story-art:has(.av-code-window) .av-code-window{box-shadow:0 25px 65px #030115cc,0 0 0 1px #a594ff22}
+.av-portal{filter:drop-shadow(0 40px 95px #08002cb8)}
+.av-cosmic-mote{position:absolute;width:4px;height:4px;border-radius:50%;background:#e8d6ff;box-shadow:0 0 15px 3px #a58aff;opacity:.75;animation:mote-glow 4s ease-in-out infinite;pointer-events:none}
+.av-prism{position:absolute;width:140px;height:140px;border:1px solid #cbbcff80;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);transform:rotate(45deg);background:linear-gradient(135deg,#ac86ff36,transparent 70%);box-shadow:inset 0 0 45px #baadff24;pointer-events:none;z-index:1}
+.av-prism.one{left:14%;top:14%;animation:prism-drift 14s ease-in-out infinite}
+.av-prism.two{right:13%;bottom:11%;width:70px;height:70px;animation:prism-drift 11s -5s ease-in-out infinite reverse}
+@keyframes nebula-drift-a{50%{transform:translate(5%,9%) scale(1.08)}}
+@keyframes nebula-drift-b{50%{transform:translate(-8%,-7%) scale(1.12)}}
+@keyframes cosmic-twinkle{0%{opacity:.3}100%{opacity:.65}}
+@keyframes devotional-float{50%{translate:0 -13px}}
+@keyframes prism-drift{50%{translate:15px -30px;rotate:16deg}}
+@keyframes mote-glow{50%{opacity:.17;scale:1.8}}
+@media(max-width:760px){
+.av-cosmic-bg .devotional.krishna{height:58%;left:-20%;bottom:5%;opacity:.12}
+.av-cosmic-bg .devotional.shiva{height:55%;right:-21%;top:26%;opacity:.10}
+.av-cosmic-bg .cosmic-spot{display:none}
+.av-cosmic-bg .nebula{filter:blur(40px)}
+.av-service-row .av-hover-image{display:none}
+.av-hero-stage{opacity:.55}
+}
+@media(prefers-reduced-motion:reduce){
+.av-cosmic-bg *, .av-cosmic-mote,.av-prism{animation:none!important}
+.av-cosmic-bg .cosmic-spot{display:none}
+}
