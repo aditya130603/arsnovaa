@@ -69,6 +69,8 @@ else{
 const scenes=[...document.querySelectorAll('.av-story-scene')];
 const story=document.querySelector('.av-story-run');
 const progress=document.querySelector('.av-story-progress i');
+const giant=document.querySelector('.av-giant-type');
+const intro=document.querySelector('.av-intro');
 let current=0;
 function switchScene(n){
  current=Math.max(0,Math.min(scenes.length-1,n));
@@ -77,6 +79,7 @@ function switchScene(n){
 }
 function onScroll(){
  scroll=window.scrollY;
+ if(giant&&intro&&!reduce.matches){const r=intro.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight){const v=Math.max(0,Math.min(1,(innerHeight-r.top)/(innerHeight+r.height)));giant.style.setProperty('--giant-x',Math.round((v-.5)*-170)+'px');}}
  if(story){
   const r=story.getBoundingClientRect(),range=Math.max(1,r.height-innerHeight);
   const v=Math.max(0,Math.min(1,-r.top/range));
