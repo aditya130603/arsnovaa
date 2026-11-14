@@ -99,11 +99,11 @@
   const uTime=gl.getUniformLocation(prog,'uTime');
   const uMouse=gl.getUniformLocation(prog,'uMouse');
   const uMotion=gl.getUniformLocation(prog,'uMotion');
-  let raf=0,visible=true,mouseX=0,mouseY=0,smoothX=0,smoothY=0,previous=0,clock=0,frames=0;
+  let raf=0,visible=true,mouseX=0,mouseY=0,smoothX=0,smoothY=0,previous=0,lastPaint=0,clock=0,frames=0;
   function resize(){
     const rect=stage.getBoundingClientRect();
-    const dpr=Math.min(window.devicePixelRatio||1, mobile.matches?1:1.35);
-    const scale=mobile.matches?.7:1;
+    const dpr=Math.min(window.devicePixelRatio||1, 1);
+    const scale=mobile.matches ? 0.7 : 0.85;
     const w=Math.max(1,Math.floor(rect.width*dpr*scale));
     const h=Math.max(1,Math.floor(rect.height*dpr*scale));
     if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;gl.viewport(0,0,w,h);}
@@ -112,6 +112,8 @@
     raf=0;
     if(!visible || document.hidden)return;
     if(!previous)previous=time;
+    if(!reduce.matches && time-lastPaint < (mobile.matches ? 42 : 30)){raf=requestAnimationFrame(draw);return;}
+    lastPaint=time;
     const elapsed=Math.min((time-previous)/1000,.06);
     previous=time;
     const motion=reduce.matches?0:1;
